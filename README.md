@@ -18,6 +18,7 @@ tsc --build app
 ```
 
 # File Structure
+```md
 - .wix/                   (Annoying auto-generated dir with page-specific types and some extended jsconfig files)
 - tsconfig.json           (For IDE IntelliSense)
 - app/                    (source)
@@ -34,4 +35,5 @@ tsc --build app
 
 - build/                  (The current output directory, will be replaced with src)
   - pages/...
+```
 
