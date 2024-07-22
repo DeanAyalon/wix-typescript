@@ -1,0 +1,36 @@
+{
+    // "compilerOptions": {
+    //     "noEmit": true,
+    //     "outDir": "../dist",
+    //     "rootDir": "./",
+    //     /* Specify the root folder within your source files. */
+    //     "paths": {
+    //         "backend/*": [
+    //             "./backend/*"
+    //         ],
+    //         "public/*": [
+    //             "./public/*"
+    //         ],
+    //         "pages/*": [
+    //             "./pages/*"
+    //         ]
+    //     },
+    // },
+    "typeAcquisition": {
+        "enable": true
+    },
+    "references": [
+        {
+            "path": "../ts/conf/pages/tsconfig.c1dmp.json"
+        },
+        {
+            "path": "../ts/conf/pages/tsconfig.masterPage.json"
+        },
+        // {
+        //     "path": "../.wix/types/backend/jsconfig.json"
+        // },
+        // {
+        //     "path": "../.wix/types/public/jsconfig.json"
+        // }
+    ]
+}

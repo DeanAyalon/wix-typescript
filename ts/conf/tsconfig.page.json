@@ -1,0 +1,28 @@
+{
+    "extends": "../../.wix/types/wix-code-types/configs/tsconfig.page",
+    "compilerOptions": {
+        "composite": true,
+        "noEmit": false,
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "baseUrl": ".",
+        "jsx": "react",
+        "paths": {
+            "public/*": [
+                "../../app/public/*"
+            ],
+            "backend/*.web.js": [
+                "../../app/backend/*.web.js"
+            ],
+            "backend/*.web": [
+                "../../app/backend/*.web.js"
+            ]
+        },
+        "outDir": "../../build",
+        "rootDir": "../../app"
+    },
+    "include": [
+        "../../app/public/**/*",
+        "../../app/backend/**/*.web.js",
+        "../../.wix/types/backend.d.ts"
+    ]
+}

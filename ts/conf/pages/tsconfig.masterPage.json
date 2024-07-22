@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.page",
+    "files": [
+        "../../../app/pages/masterPage.ts"
+    ],
+    "include": [
+        "../../../.wix/types/masterPage/masterPage.d.ts",
+        "../../../.wix/types/masterPage/index.d.ts",
+    ]
+}

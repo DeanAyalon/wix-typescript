@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig.page",
+    "files": [
+        "../../../app/pages/Home.c1dmp.ts"
+    ],
+    "include": [
+        "../../../.wix/types/c1dmp/c1dmp.d.ts",
+
+        "../../../app/public/**/*",
+        "../../../app/backend/**/*.web.js",
+        "../../../.wix/types/backend.d.ts",
+        // "../../../.wix/types/wix-code-types/dist/types/common/$w.d.ts"
+    ]
+}
